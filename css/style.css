@@ -9,6 +9,12 @@ body {
     background-color: #FBFBFB !important;
 }
 
+.section {
+    padding-top: 4% !important;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+
 /* -------------- Navbar -------------- */
 nav {
     padding-left: 10% !important;
@@ -36,6 +42,42 @@ nav {
 .nav-link:hover {
 	color: #D1FADE !important;
 	transition: 0.4s;
+}
+/* ------------------------------------ */
+
+/* ------------- Section  ------------- */
+.landing img {
+    width: 41vw;
+    height: auto;
+    top: 29%;
+    right: 10%;
+    position: absolute;
+}
+
+.landing h4 {
+    top: 27%;
+    left: 13%;
+    position: absolute;
+    font-size: 3vw;
+    color: #B9DACA;
+}
+
+.landing .text1{
+    top: 31%;
+    left: 13%;
+    position: absolute;
+    font-size: 15.5vw;
+    font-weight: 700;
+    color: #1A6755;
+}
+
+.landing .text2{
+    top: 31%;
+    right: 13%;
+    position: absolute;
+    font-size: 15.5vw;
+    font-weight: 700;
+    color: #1A6755;
 }
 /* ------------------------------------ */
 
