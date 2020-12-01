@@ -285,6 +285,56 @@ footer {
 }
 /* ------------------------------------ */
 
+/* ------------- About  ------------- */
+.myProfile {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.myInfo a {
+    margin: 0px 16px;
+    color: #1A6755;
+    transition: 0.4s;
+}
+
+.myInfo a:hover {
+    color: #75B89B;
+    transition: 0.4s;
+}
+
+.myName {
+    font-weight: 700;
+    font-size: 2vw;
+    color: #1A6755;
+    text-align: center;
+}
+
+.socmed {
+    margin: 0px 16px;
+    width: 4.5vw;
+    height: auto;
+    font-size: 24px;
+}  
+
+.ourTeam {
+    margin-top: 10%;
+}
+
+.ourTeam .heading {
+    margin-bottom: 8vh;
+    display: flex;
+    justify-content: center;
+}
+
+.ourTeam .text-1 {
+    padding: 0px 1.2vw;
+    font-weight: 700;
+    font-size: 4vw;
+    color: #75B89B;
+}
+/* ------------------------------------ */
+
 .test-box {
     width: 100%;
     height: 100px;
