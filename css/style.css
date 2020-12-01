@@ -9,10 +9,9 @@ body {
     background-color: #FBFBFB !important;
 }
 
-.section {
-    padding-top: 4% !important;
-    padding-left: 10% !important;
-    padding-right: 10% !important;
+section {
+    margin: 15vh 0px;
+    padding: 0px 10%;
 }
 
 /* -------------- Navbar -------------- */
@@ -45,39 +44,68 @@ nav {
 }
 /* ------------------------------------ */
 
-/* ------------- Section  ------------- */
-.landing img {
-    width: 41vw;
-    height: auto;
-    top: 29%;
-    right: 10%;
+/* ------------- Landing Page  ------------- */
+.landing .text-1 {
     position: absolute;
-}
-
-.landing h4 {
     top: 27%;
     left: 13%;
-    position: absolute;
     font-size: 3vw;
     color: #B9DACA;
 }
 
-.landing .text1{
+.landing .text-2 {
+    position: absolute;
     top: 31%;
     left: 13%;
-    position: absolute;
     font-size: 15.5vw;
     font-weight: 700;
     color: #1A6755;
 }
 
-.landing .text2{
+.landing .text-3 {
+    position: absolute;
     top: 31%;
     right: 13%;
-    position: absolute;
     font-size: 15.5vw;
     font-weight: 700;
     color: #1A6755;
+}
+
+.landing img {
+    position: absolute;
+    top: 29%;
+    right: 13%;
+    width: 41vw;
+    height: auto;
 }
 /* ------------------------------------ */
 
+/* ------------- Section 1  ------------- */
+.section-1 {
+    display: none;
+}
+
+.section-1 img {
+    width: 340px;
+    height: auto;
+}
+
+.section-1 .heading {
+    margin-bottom: 8vh;
+    display: flex;
+    justify-content: center;
+}
+
+.section-1 .text-1 {
+    padding: 0px 1.2vw;
+    font-weight: 700;
+    font-size: 4vw;
+    color: #75B89B;
+}
+
+.section-1 .text-2 {
+    font-weight: 700;
+    font-size: 4vw;
+    color: #1A6755;
+}
+/* ------------------------------------ */
