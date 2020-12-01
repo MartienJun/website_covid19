@@ -7,11 +7,17 @@
 
 body {
     background-color: #FBFBFB !important;
+    offset;
 }
 
 section {
     margin: 15vh 0px;
     padding: 0px 10%;
+}
+
+.white-space {
+    width: 100%;
+    height: 80vh;
 }
 
 /* -------------- Navbar -------------- */
@@ -82,11 +88,11 @@ nav {
 
 /* ------------- Section 1  ------------- */
 .section-1 {
-    display: none;
+    margin-bottom: 12vw;
 }
 
 .section-1 img {
-    width: 340px;
+    width: 27.5vw;
     height: auto;
 }
 
@@ -108,4 +114,152 @@ nav {
     font-size: 4vw;
     color: #1A6755;
 }
+
+.section-1 .info {
+    font-weight: 600;
+    font-size: 1.7vw;
+    color: #1A6755;
+}
 /* ------------------------------------ */
+
+/* ------------- Section 2  ------------- */
+.section-2 {
+    margin-bottom: 12vw;
+}
+
+.section-2 .heading {
+    margin-bottom: 8vh;
+    display: flex;
+    justify-content: center;
+}
+
+.section-2 .text-1 {
+    padding: 0px 1.2vw;
+    font-weight: 700;
+    font-size: 4vw;
+    color: #75B89B;
+}
+
+.section-2 .text-2 {
+    font-weight: 700;
+    font-size: 4vw;
+    color: #1A6755;
+}
+
+.section-2 .info {
+    font-weight: 500;
+    font-size: 1.5vw;
+    color: #1A6755;
+}
+/* ------------------------------------ */
+
+/* ------------- Section 3  ------------- */
+.myCard {
+    width: 45vw;
+    height: 60vh;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px #D4D4D4;
+    background-color: #FFF;
+}
+
+    .card1 {
+        background: url(../assets/images/cuci-tangan.png) no-repeat;
+    }
+
+    .card1 > .text-1 {
+        position: absolute;
+        top: 32%;
+        left: 36%;
+        font-weight: 700;
+        font-size: 4.9vw;
+        color: #1A6755;
+    }
+
+    .card1 > .text-2 {
+        position: absolute;
+        top: 45%;
+        left: 39%;
+        font-weight: 500;
+        font-size: 6.7vw;
+        color: #75B89B;
+    }
+
+    .card2 {
+        background: url(../assets/images/mask.png) no-repeat;
+        background-position: right;
+    }
+
+    .card2 > .text-1 {
+        position: absolute;
+        top: 32%;
+        left: 10.5%;
+        font-weight: 700;
+        font-size: 4.9vw;
+        color: #1A6755;
+    }
+
+    .card2 > .text-2 {
+        position: absolute;
+        top: 45%;
+        left: 5%;
+        font-weight: 500;
+        font-size: 6.7vw;
+        color: #75B89B;
+    }
+
+    .card3 {
+        background: url(../assets/images/jaga-jarak.png) no-repeat;
+    }
+
+    .card3 > .text-1 {
+        position: absolute;
+        top: 32%;
+        left: 43%;
+        font-weight: 700;
+        font-size: 4.3vw;
+        color: #1A6755;
+    }
+
+    .card3 > .text-2 {
+        position: absolute;
+        top: 45%;
+        left: 46%;
+        font-weight: 500;
+        font-size: 6.7vw;
+        color: #75B89B;
+    }
+
+    .info-3m {
+        font-weight: 500;
+        font-size: 1.7vw;
+        color: #1A6755;
+    }
+/* ------------------------------------ */
+
+/* ------------- Section 3  ------------- */
+
+/* ------------------------------------ */
+
+/* ------------- Footer  ------------- */
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1A6755;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 4vw;
+    text-align: center;
+}
+/* ------------------------------------ */
+
+.test-box {
+    width: 100%;
+    height: 100px;
+    background-color: #B9DACA;
+}
+
+.test-box2 {
+    width: 100%;
+    height: 100px;
+    background-color: #75B89B;
+}
